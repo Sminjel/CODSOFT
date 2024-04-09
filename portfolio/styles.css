@@ -156,7 +156,7 @@
   
   .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: #3d8def;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -164,7 +164,7 @@
   }
   
   .navbar .menu li a:hover {
-    color: #1e3551;
+    color: #61a4f6;
   }
   
   .navbar.sticky .menu li a:hover {
@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+    background: url("assets/img/4.jfif") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -406,7 +406,7 @@
   }
   
   .skills .skills-content .column {
-    width: calc(50% - 30px);
+    width: 100%;
   }
   
   .skills .skills-content .left .text {
@@ -934,3 +934,20 @@
       line-height: 38px;
     }
   }
+
+  .float-center{
+    margin-top: 5vh;
+    margin-left: 50%;
+    position: absolute;
+  }
+
+  .col-md-6{
+    width: 40%;
+  }
+
+  .fit{
+    width:40vw;
+    margin-top: 0px;
+    height: 500px;
+  }
+  .spaced{padding-top: 0px;}
